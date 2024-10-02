@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SOC Analyst Portfolio - Moisés Tamayo">
+    <title>Moisés Tamayo | SOC Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Moisés Tamayo</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My SOC Analyst Portfolio</h2>
+        <p>Focused on Cybersecurity, Incident Response, and Threat Analysis.</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I'm Moisés Tamayo, a dedicated SOC Analyst specializing in threat detection, vulnerability assessments, and incident response. 
+           With hands-on experience in real-world scenarios, I help organizations safeguard their digital infrastructure.</p>
+        <ul>
+            <li>Certifications: CompTIA Security+, Certified SOC Analyst (CSA), CISSP (in progress)</li>
+            <li>Skills: Threat Hunting, SIEM Solutions (Splunk, ELK), Malware Analysis, Incident Response</li>
+            <li>Languages: Python, Bash, Powershell</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Project 1: Incident Response for Ransomware Attack</h3>
+            <p>In this project, I led a team in identifying, containing, and eradicating a ransomware attack on a mid-size organization. We used Splunk for monitoring and responded using various incident handling techniques.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+            <h3>Project 2: Threat Intelligence Dashboard</h3>
+            <p>Developed a custom dashboard in ELK to visualize threat intelligence feeds, enabling faster detection of indicators of compromise (IoCs) in the network.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <h2>Blog</h2>
+        <p>Stay tuned for updates on the latest in cybersecurity, best practices, and in-depth analyses of emerging threats.</p>
+        <div class="blog-post">
+            <h3>Understanding SIEM: What Every SOC Analyst Needs to Know</h3>
+            <p>A deep dive into SIEM solutions and how they enable proactive threat detection and response.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or want to collaborate on a project, feel free to reach out!</p>
+        <a href="mailto:moisestamayo@example.com" class="btn">Email Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moisés Tamayo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
